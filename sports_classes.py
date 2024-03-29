@@ -12,7 +12,7 @@ import time
 
 def about_project():
     st.markdown("<h1 style='text-align: center;'>Проект: классификация спортивных изображений</h1>", unsafe_allow_html=True)
-    st.image('/Users/veronikabelova/Desktop/Pj/Снимок экрана 2024-03-29 в 19.10.49.png', use_column_width=True)
+    st.image('Images_Classification/data/Снимок экрана 2024-03-29 в 19.10.49.png', use_column_width=True)
 
 
     st.header('Cодержание датасета')
@@ -23,7 +23,7 @@ def about_project():
     st.header('Выбор модели')
     st.write('Была использована предобученная нейросеть ResNet18. Эта модель обучалась на датасете с изображениями, в котором 1000 классов.')
     st.write('Для корректного использования на наших данных был изменен полносвязный слой, количество выходных нейронов - 100')
-    st.image('/Users/veronikabelova/Desktop/Pj/futureinternet-10-00080-g002.webp', use_column_width=True)
+    st.image('Images_Classification/data/futureinternet-10-00080-g002.webp', use_column_width=True)
 
 
 def prediction():
@@ -188,7 +188,7 @@ def prediction():
 
 def result():
     st.markdown("<h3 style='font-size: 24px;'>Обучение на 6 эпохах</h3>", unsafe_allow_html=True)
-    st.image('/Users/veronikabelova/Desktop/Pj/Plt3.png', use_column_width=True)
+    st.image('Images_Classification/data/Plt3.png', use_column_width=True)
     st.markdown("<h3 style='font-size: 24px;'>Метрики Accuracy, F1-score</h3>", unsafe_allow_html=True)
 
     data_list = [
