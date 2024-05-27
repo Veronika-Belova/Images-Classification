@@ -3,5 +3,7 @@
 Модель обучалась на коллекции спортивных изображений - 13493 картинок.
 Так же для проекта было написано приложение streamlit, в котором можно получить предсказание класса, увидеть сколько модели необходимо времени на предсказание и метрики.
 
+Streamlit app - https://imagesclassification-crm7ytj2h6wambadgeak5p.streamlit.app/
+
 
 ![Архитектура сети ResNet-18 ](https://github.com/Veronika-Belova/Images_Classification/blob/main/futureinternet-10-00080-g002.webp)
